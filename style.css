@@ -35,7 +35,7 @@ body{
 .header {
 	background:#27273e;
 	width: 100%;
-	margin-bottom: 0px;
+	margin-bottom: 10px;
 	padding: 18px 0;
 	height: 70px;
 }
@@ -363,9 +363,9 @@ a.active{
 	font-weight: 300;
 	font-style: italic;
 }
-ul.links_logs{
+.links_logs{
 	    list-style-type: none;
-	    display: flex;
+	  /*  display: flex;*/
 	    padding-left: 0px;
 	    margin: 0px;
 }
@@ -375,7 +375,7 @@ ul.links_logs{
 }
 
 .circle_link{
-	display: block;
+	
 	width: 20px;
 	height: 20px;
 	background: white;
@@ -391,6 +391,7 @@ ul.links_logs{
 	.link_logo{
 		text-align: center;
 		margin-right: 10px;
+		display: inline-block;
 	}
 	.circle_link:hover{
 	
@@ -420,8 +421,9 @@ a.work:hover+div  {
     	font-weight: bold;
     	font-family: "Gotham Pro";
     }
-    .logo__footer--link{
-	position: relative;
-	left: 50%;
-	top:15px;
+    .logo_footer{
+    	text-align: center;
+    position: relative;
+   /* top: 18px;*/
+    left: 50%;
     }
