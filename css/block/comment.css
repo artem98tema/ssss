@@ -1,0 +1,46 @@
+.comment__list {
+    list-style: none;
+}
+
+.comment__item {
+    display: flex;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #f5f5f5;
+    margin-top: 20px;
+    /*padding-top: 20px;*/
+    height: 190px;
+}
+
+.comment__item:last-child {
+    border-bottom-width: 0px;
+}
+
+ul.comment__block {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.main__comment {
+    display: inline-block;
+}
+
+.comment__date {
+    font-size: 14px;
+    color: #6f6e6e;
+}
+
+.comment__who {
+    font-size: 18px;
+    font-family: 'Gotham Pro';
+    font-weight: bold;
+}
+
+.comment__text {
+    font-size: 18px;
+    font-family: 'Gotham Pro';
+    font-weight: 300;
+}
+.comment__avatar{
+    margin-right: 10px;
+}
