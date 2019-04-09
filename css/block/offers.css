@@ -61,3 +61,6 @@ li.information__item:before {
     padding-right: 20px;
     /* Расстояние от маркера до текста */
 }
+.main__list{
+    margin:0px;
+}

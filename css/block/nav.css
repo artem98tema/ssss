@@ -8,9 +8,11 @@
     float: left;
     width: 10%;
     margin-right: 30px;
-    /*margin-right: 6%;*/
+   
 }
-
+.nav__item:last-child{
+    margin-bottom: 0px;
+}
 .nav__list {
     list-style: none;
 }
@@ -22,18 +24,12 @@
     cursor: pointer;
 }
 
-/*.nav_title {
-    font-weight: bold;
-    font-size: 12pt;
-}*/
 
-/**/
 .link_main {
     list-style-type: none;
     list-style-image: url(../../img/main_icon.png);
     color: black;
-    /*width: 30px;*/
-    /*padding: 10px;*/
+  
 }
 
 .active-link {
@@ -43,54 +39,54 @@
 .link_feed {
     list-style-type: none;
     list-style-image: url(../../img/feed_icon.png);
-    /*padding: 10px;*/
+   
 
 }
 
 .link_wallet {
     list-style-type: none;
     list-style-image: url(../../img/wallet_icon.png);
-    /*padding: 10px;*/
+ 
 }
 
 .link_main:hover {
     list-style-type: none;
     list-style-image: url(../../img/main_icon.png);
     color: black;
-    /*padding: 10px;*/
+   
 }
 
 .link_feed:hover {
     list-style-type: none;
     list-style-image: url(../../img/feed_icon_hover.png);
-    /*padding: 10px;*/
+   
     color: black;
 }
 
 .link_wallet:hover {
     list-style-type: none;
     list-style-image: url(../../img/wallet_icon_hover.png);
-    /*padding: 10px;*/
+  
     color: black;
 }
 
 .link_feed:hover .nav_link {
     list-style-type: none;
     list-style-image: url(../../img/feed_icon_hover.png);
-    /*padding: 10px;*/
+    
     color: black;
 }
 
 .link_wallet:hover .nav_link {
     list-style-type: none;
     list-style-image: url(../../img/feed_icon_hover.png);
-    /*padding: 10px;*/
+   
     color: black;
 }
 
 .link_wallet:hover {
     list-style-type: none;
     list-style-image: url(../../img/wallet_icon_hover.png);
-    /*padding: 10px;*/
+    
     color: black;
 }
