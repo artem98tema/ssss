@@ -1,0 +1,27 @@
+.breadcrumps__item{
+    /*text-decoration: none;*/
+    list-style-type:none;
+   
+
+}
+.breadcrumps{
+	display: flex;
+	padding: 0px;
+}
+.breadcrumps__link{
+    color: #ec1e79;
+    font-family: 'Gotham Pro';
+    font-style: italic;
+    text-decoration: none;
+}
+.breadcrumps__item:after{
+    content:" /";
+}
+.breadcrumps__item:last-child:after{
+    display: none;
+}
+.active_breadcrumps{
+    color: black;
+}
+
+

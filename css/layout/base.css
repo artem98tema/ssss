@@ -26,8 +26,8 @@ span {
 }
 .main__content{
     width: 80%;
-    float: left;
+    /*float: left;*/
 }
 .main__product {
-    float: left;
+    /*float: left;*/
 }

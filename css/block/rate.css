@@ -1,0 +1,41 @@
+.rate__item{
+    list-style-type: none;
+    width: 250px;
+    margin-right:30px;
+}
+.rate{
+    display: flex;
+    flex-wrap: wrap;
+}
+.rate__name{
+    text-align: center;
+    font-family: "Gotham Pro";
+    color: #262424;
+    font-weight: 700;
+}
+.rate__text{
+	text-align: center;
+	font-family: "Gotham Pro";
+	color: #262424;
+	font-weight: 300;
+}
+.rate__list{
+	padding: 0px;
+}
+.rate__img{
+	position: relative;
+}
+.rate__img--text{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	margin: 0px;
+	font-family: "Gotham Pro";
+	color: #8ad0f6;
+	text-align: center;
+	width: 160px;
+}
+.text__srec{
+color: #cb2376;
+}
