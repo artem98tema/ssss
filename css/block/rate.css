@@ -21,6 +21,7 @@
 }
 .rate__list{
 	padding: 0px;
+	margin: 0px;
 }
 .rate__img{
 	position: relative;
@@ -38,4 +39,7 @@
 }
 .text__srec{
 color: #cb2376;
+}
+.rate__item:nth-child(3n){
+	margin-right: 0px;
 }

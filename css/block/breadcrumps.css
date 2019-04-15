@@ -20,7 +20,7 @@
 .breadcrumps__item:last-child:after{
     display: none;
 }
-.active_breadcrumps{
+.breadcrumps__link--active{
     color: black;
 }
 

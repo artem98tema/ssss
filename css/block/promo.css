@@ -1,0 +1,22 @@
+.promo{
+    background: #27273e;
+}
+.text__srec{
+color: #cb2376;
+}
+.promo__text{
+    color: white;
+    width: 611px;
+    text-align:start;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    background-image: (./../..img/banner_feed.png)
+}
+.promo__img{
+    position: relative;
+    background-image:url(../../img/banner_feed.png);
+    width: 100%;
+    height: 174px;
+}

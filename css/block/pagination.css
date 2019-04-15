@@ -1,5 +1,5 @@
 .pagination {
-      display: flex;
+    display: flex;
     justify-content: center;
     padding-top: 66px;
     padding-bottom: 75px;
@@ -7,6 +7,7 @@
 
 .pagination__controlls {
     display: flex;
+    align-items: center;
 }
 .pagination__list {
     display: flex;
@@ -45,6 +46,7 @@
     align-items: center;
     font-weight: 300;
     color: #656464;
+    display: flex;
 }
 .active {
     color: white;

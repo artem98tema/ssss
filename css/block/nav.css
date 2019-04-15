@@ -8,11 +8,7 @@
 .nav__link:hover{
     color: black;
 }
-.nav {
-   /* float: left;
-    width: 10%;
-    margin-right: 30px;*/
-}
+
 
 .nav__item:last-child{
     margin-bottom: 0px;
@@ -21,75 +17,74 @@
     list-style: none;
 }
 
-.link_feed.active__item{
+.nav__feed--active{
     list-style-type: none;
     list-style-image: url(../../img/feed_icon_hover.png);
     margin-bottom: 20px;
 }
 .nav__item {
-    /*margin-bottom: 20px;*/
-   /* position: relative;*/
+ 
     transition: .3s;
     cursor: pointer;
 }
-.link_main.active__item{
+.nav__main--active{
     list-style-type: none;
     list-style-image: url(../../img/main_icon_hover.png);
     margin-bottom: 20px;
 }
-/*.link_main:hover {
-    list-style-type: none;
-    list-style-image: url(../../img/main_icon-hover.png);
-}*/
-.link_main  {
+
+.nav__main  {
     list-style-type: none;
     list-style-image: url(../../img/main_icon.png);
     margin-bottom: 20px;
 }
-.active__item.link_wallet{
+.nav__wallet--active{
     list-style-image: url(../../img/wallet_icon_hover.png)
 }
 .active-link {
     color: black;
 }
 
-.link_feed {
+.nav__feed {
     list-style-type: none;
     list-style-image: url(../../img/feed_icon.png);
     margin-bottom: 20px;
 }
 
-.link_wallet {
+.nav__wallet {
     list-style-type: none;
     list-style-image: url(../../img/wallet_icon.png); 
 }
 
-.link_main:hover {
+.nav__main:hover {
     list-style-type: none;
     list-style-image: url(../../img/main_icon_hover.png);
 }
 
-.link_feed:hover {
+.nav__feed:hover {
     list-style-type: none;
     list-style-image: url(../../img/feed_icon_hover.png);
 }
 
-.link_wallet:hover {
+.nav__wallet:hover {
     list-style-type: none;
     list-style-image: url(../../img/wallet_icon_hover.png);
 
 }
 
-.link_feed:hover .nav_link {
+.nav__feed:hover .nav__link {
     list-style-type: none;
     list-style-image: url(../../img/feed_icon_hover.png);
 
 }
 
-.link_wallet:hover .nav_link {
+.nav__wallet:hover .nav__link {
     list-style-type: none;
     list-style-image: url(../../img/feed_icon_hover.png);
 
 }
 
+.nav__item.nav__feed--active{
 
+}
+nav__feed

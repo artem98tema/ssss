@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-     <meta name="viewport" content="width=1100">
+    <meta name="viewport" content="width=1100">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <link rel="stylesheet" type="text/css" href="./css/layout/base.css">
     <link rel="stylesheet" type="text/css" href="./css/layout/fonts.css">
@@ -14,6 +14,7 @@
     <link rel="stylesheet" type="text/css" href="./css/block/comment.css">
     <link rel="stylesheet" type="text/css" href="./css/block/breadcrumps.css">
     <link rel="stylesheet" type="text/css" href="./css/block/forma.css">
+    <link rel="stylesheet" type="text/css" href="./css/block/promo.css">
     <meta charset="UTF-8">
     <title>Document</title>
 </head>
@@ -30,6 +31,9 @@
                 <div class="header__contact contact">
                     <a class="contact__number" href="tel:+78000039210">8(800)00-392-10</a>
                     <a class="contact__work-time" href="#">График работы
+                        <div class="contact__hide">
+                            <p class="contact__hide--text"><span class="hide-text">пн-вс: 09:00-20:00</span> обед: 14:00-14:30</p>
+                        </div>
                     </a>
                 </div>
             </div>
@@ -37,15 +41,14 @@
         <div class="main clearfix">
             <div class="container">
                 <nav class="nav">
-                   
                     <ul class="nav__list">
-                        <li class="link_main  "><a class="nav__link " href="index.html">
+                        <li class="nav__main nav__item "><a class="nav__link " href="index.html">
                                 Главная
                             </a></li>
-                        <li class="active__item link_feed"><a class="nav__link active-link" href="feed.html">
+                        <li class="nav__item nav__feed--active"><a class="nav__link active-link" href="feed.html">
                                 Отзывы
                             </a></li>
-                        <li class="nav__item link_wallet"><a class="nav__link" href="price.html">
+                        <li class="nav__item nav__wallet"><a class="nav__link" href="price.html">
                                 Тарифы
                             </a></li>
                     </ul>
@@ -53,63 +56,63 @@
                 <div class="main__content clearfix">
                     <ul class="breadcrumps">
                         <li class="breadcrumps__item"><a class="breadcrumps__link" href="index.html">Главная</a></li>
-                        <li class="breadcrumps__item"><a class="breadcrumps__link active_breadcrumps" href="#">Отзывы</a>
+                        <li class="breadcrumps__item"><a class="breadcrumps__link breadcrumps__link--active" href="#">Отзывы</a>
                         </li>
                     </ul>
-                <div class="main__comment comment">
-                    <h1 class="main__text ">Отзывы</h1>
-                    <ul class="comment__list">
-                        <li class="comment__item">
-                            <div class="comment__avatar">
-                                <img class="comment__img" src="./img/1com.png">
-                            </div>
-                            <div class="comment__block">
-                                <div class="comment__info">
-                                    <data class="comment__date">12.10.2016</data>
-                                    <h4 class="comment__who">Олег Павлов    </h4>
+                    <div class="main__comment comment">
+                        <h1 class="main__text ">Отзывы</h1>
+                        <ul class="comment__list">
+                            <li class="comment__item">
+                                <div class="comment__avatar">
+                                    <img class="comment__img" src="./img/1com.png">
                                 </div>
-                                <p class="comment__text">Пользуемся услугами коворкинга стабильно раз в неделю, когда проводим совещания директоров. Получается намного дешевле и удобно всем добираться. Единственное пожелание – расширить меню, потому что бизнес-ланчи – это все таки средний уровень, а хочется чего то более вкусного, чтобы можно было угощать начальство.</p>
-                            </div>
-                        </li>
-                        <li class="comment__item">
-                            <div class="comment__avatar">
-                                <img class="comment__img" src="./img/2com.png">
-                            </div>
-                            <div class="comment__block">
-                                <div class="comment__info">
-                                    <data class="comment__date">01.02.2016</data>
-                                    <h4 class="comment__who">Эрнест Изиль</h4>
+                                <div class="comment__block">
+                                    <div class="comment__info">
+                                        <data class="comment__date">12.10.2016</data>
+                                        <h4 class="comment__who">Олег Павлов </h4>
+                                    </div>
+                                    <p class="comment__text">Пользуемся услугами коворкинга стабильно раз в неделю, когда проводим совещания директоров. Получается намного дешевле и удобно всем добираться. Единственное пожелание – расширить меню, потому что бизнес-ланчи – это все таки средний уровень, а хочется чего то более вкусного, чтобы можно было угощать начальство.</p>
                                 </div>
-                                <p class="comment__text">Я фрилансер, программист, работать дома не могу, так как мешают дети. Здесь нашел то, что давно искал – тишину и спокойствие. Эффективность работы выросла, как и гонорары. Очень удобно, что коворкинг находится недалеко от метро. Стабильный интернет, чистота и порядок вокруг, никто не мешает. Цены сначала показались высокими, но учитывая полученные преимущества, все отлично!</p>
-                            </div>
-                        </li>
-                        <li class="comment__item">
-                            <div class="comment__avatar">
-                                <img class="comment__img" src="./img/Layer 9.png">
-                            </div>
-                            <div class="comment__blockt">
-                                <div class="comment__info">
-                                    <data class="comment__date">22.12.2015</data>
-                                    <h4 class="comment__who">Елена Сургай</h4>
+                            </li>
+                            <li class="comment__item">
+                                <div class="comment__avatar">
+                                    <img class="comment__img" src="./img/2com.png">
                                 </div>
-                                <p class="comment__text">Захожу сюда не часто, так как не мой район, но когда бываю в центре, то периодически нужно место для плодотворной работы. Интернет-клубы не подходят, так как не обеспечивают такой уровень сервиса, как Воркадиум. Здесь я нахожу вдохновение и могу выделить время для творчества. Желаю Воркадиуму процветания и развития. Если будете открывать филиалы, обратите внимание на Алексеевский район, я буду вашим постоянным клиентом :) </p>
-                            </div>
-                        </li>
-                        <li class="comment__item">
-                            <div class="comment__avatar">
-                                <img class="comment__img" src="./img/4com.png">
-                            </div>
-                            <div class="comment__blockt">
-                                <div class="comment__info">
-                                    <data class="comment__date">14.08.2015</data>
-                                    <h4 class="comment__who">Наталья Осадчая</h4>
+                                <div class="comment__block">
+                                    <div class="comment__info">
+                                        <data class="comment__date">01.02.2016</data>
+                                        <h4 class="comment__who">Эрнест Изиль</h4>
+                                    </div>
+                                    <p class="comment__text">Я фрилансер, программист, работать дома не могу, так как мешают дети. Здесь нашел то, что давно искал – тишину и спокойствие. Эффективность работы выросла, как и гонорары. Очень удобно, что коворкинг находится недалеко от метро. Стабильный интернет, чистота и порядок вокруг, никто не мешает. Цены сначала показались высокими, но учитывая полученные преимущества, все отлично!</p>
                                 </div>
-                                <p class="comment__text">Провожу здесь встречи с клиентами в неформальной обстановке. Удобно, что при необходимости все под рукой – и ксерокс, и принтер и магазин канцелярии. Заключаю здесь свои лучшие договора. Единственное пожелание – сделайте еще несколько переговорных комнат на 10-15 человек, а то они пользуются большим спросом и не всегда есть возможность забронировать.</p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="pagination">
+                            </li>
+                            <li class="comment__item">
+                                <div class="comment__avatar">
+                                    <img class="comment__img" src="./img/Layer 9.png">
+                                </div>
+                                <div class="comment__blockt">
+                                    <div class="comment__info">
+                                        <data class="comment__date">22.12.2015</data>
+                                        <h4 class="comment__who">Елена Сургай</h4>
+                                    </div>
+                                    <p class="comment__text">Захожу сюда не часто, так как не мой район, но когда бываю в центре, то периодически нужно место для плодотворной работы. Интернет-клубы не подходят, так как не обеспечивают такой уровень сервиса, как Воркадиум. Здесь я нахожу вдохновение и могу выделить время для творчества. Желаю Воркадиуму процветания и развития. Если будете открывать филиалы, обратите внимание на Алексеевский район, я буду вашим постоянным клиентом :) </p>
+                                </div>
+                            </li>
+                            <li class="comment__item">
+                                <div class="comment__avatar">
+                                    <img class="comment__img" src="./img/4com.png">
+                                </div>
+                                <div class="comment__blockt">
+                                    <div class="comment__info">
+                                        <data class="comment__date">14.08.2015</data>
+                                        <h4 class="comment__who">Наталья Осадчая</h4>
+                                    </div>
+                                    <p class="comment__text">Провожу здесь встречи с клиентами в неформальной обстановке. Удобно, что при необходимости все под рукой – и ксерокс, и принтер и магазин канцелярии. Заключаю здесь свои лучшие договора. Единственное пожелание – сделайте еще несколько переговорных комнат на 10-15 человек, а то они пользуются большим спросом и не всегда есть возможность забронировать.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="pagination">
                         <div class="pagination__display">Маршрут 1 из 7</div>
                         <div class="pagination__controlls pages">
                             <a href="" class="pages__prev">
@@ -142,48 +145,66 @@
                 </div>
             </div>
         </div>
-        <div class="promo">
+        <div class="main__promo promo">
             <div class="container">
-                <div class="promo__img"><img style="position: relative;" class="promo__img" src="./img/banner_feed.png"><p class="promo__text">Для наших новых клиентов мы предлагаем<span class="text__srec"> скидку 50%</span> на первый день! Приходите, чтобы лично оценить преимущества коворкинга «Воркадиум»!</p></div>
+                <div class="promo__img">
+                    <p class="promo__text">Для наших новых клиентов мы предлагаем<span class="text__srec"> скидку 50%</span> на первый день! Приходите, чтобы лично оценить преимущества коворкинга «Воркадиум»!</p>
+                </div>
             </div>
         </div>
-        <div class="forma">
-            <div class="container">
-                
-                <div class="forma__block">
-                    <div class="forms">
-                    <h1 class="main__text form__text--main">Оставить отзыв</h1>
-                    <form class="forma__info">
-                        <div class="forma__line--1">
-                            <p class="forma__name">Ваше имя</p>
-                            <input type="" class="forma__input" placeholder="Андрей" name="">
+        <div class="main__forma forma">
+            <div class="container form__container">
+                <div class="form">
+                    <form action="" class="form__tag">
+                        <h1 class="main__text">Оставить отзыв</h1>
+                        <div class="form__row">
+                            <label class="form__block">
+                                <div class="form__block-title">Ваше имя</div>
+                                <input type="text" placeholder="Andrew" class="form__input form-field">
+                            </label>
+                            <label class="form__block">
+                                <div class="form__block-title">Ссылка на профиль VK</div>
+                                <input type="text" placeholder="vk.com/example" class="form__input form-field">
+                            </label>
                         </div>
-                        <div class="forma__line--2">
-                            <p class="forma__name">Ссылка на профиль VK</p>
-                            <input type="" class="forma__input" placeholder="vk.com/example" name="">
+                        <div class="form__row">
+                            <label class="form__block">
+                                <div class="form__block-title">Текст отзыва</div>
+                                <textarea name="" class="form__textarea form-field"></textarea>
+                            </label>
                         </div>
-                        <div class="forma__commit">
-                           <p class="forma__name">Текст отзыва</p>
-                            <textarea class="forma__area"></textarea>
+                        <div class="form__buttons">
+                            <p class="forma__name">Отображать фото в отзыве?</p>
+                           
+                            <button type="submit" class="clik__form">Отправить</button>
                         </div>
-                        <div class="forma__check">
-                            <p  class="forma__name">Отображать фото в отзыве?</p>
-                            <input type="radio" name="">Да
-                            <input type="radio" name="">Нет
+                        <div class="radio-toolbar-one">
+                            <div class="form__radibutton">
+                                <label class="form__radibutton--one" for="rb1"><input type="radio" name="rb" id="rb1" class="radio__but" checked>
+                                    <p class="form__radio--text">Да</p>
+                                    <div class="form__radio">
+                                        <div class="qwe"></div>
+                                    </div>
+                                </label>
+                            </div>
+                            <div>
+                                <label class="form__radibutton--one" for="rb2"><input type="radio" name="rb" id="rb2" class="radio__but">
+                                    <p class="form__radio--text">Нет</p>
+                                    <div class="form__radio">
+                                        <div class="qwe"></div>
+                                    </div>
+                                </label>
+                            </div>
                         </div>
-                        <div class="form__clik clik" ><a class="clik__forma"  href="">Отправить</a></div>
                     </form>
                 </div>
-                </div>
             </div>
         </div>
-    
-    <footer class="footer">
+        <footer class="footer">
             <div class="container">
                 <div class="footer__info info">
                     <p class="info__text">Сделано с любовью и старанием на курсе «HTML + CSS» в <span>LoftSchool.</span> Автор работы:<span>Сафонов Артём</span></p>
                 </div>
-
                 <a href="#" class="footer__logo">
                     <img class="logo_fig" src="./img/logo-fig.png">
                 </a>
