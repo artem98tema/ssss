@@ -4,6 +4,8 @@
     font-family: "Gotham Pro";
     font-weight: 700;
     font-size: 12px;
+    position: relative;
+    top:-3px;
 }
 .nav__link:hover{
     color: black;
@@ -23,7 +25,7 @@
     margin-bottom: 20px;
 }
 .nav__item {
- 
+   
     transition: .3s;
     cursor: pointer;
 }

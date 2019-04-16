@@ -93,7 +93,9 @@
   display: none;
 }
 
-
+.forma__name{
+  margin: 0;
+}
 .form__radibutton--one{
 display: flex;
 flex-flow:row-reverse; 
@@ -101,6 +103,7 @@ margin-right: 20px;
 }
 .radio-toolbar-one{
   display: flex;
+  flex-direction:column;
 }
 
 .radio__but:checked~.form__radio--text{
@@ -143,4 +146,7 @@ margin-right: 5px;
     border: 1px solid #c9c9c9;
     background-color: #ffffff;
     position: relative;
+}
+.form__radibutton{
+  display: flex;
 }
