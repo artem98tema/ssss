@@ -26,8 +26,30 @@ span {
 }
 .main__content{
     width: 80%;
-    float: left;
+    /*float: left;*/
 }
 .main__product {
-    float: left;
+    /*float: left;*/
+}
+.contact__hide{
+    text-align: left;
+    display: none;
+    position: absolute;
+    width: 160px;
+    box-shadow: 0 0 10px rgba(23, 59, 117, 0.55);
+    background-color: white;
+    border-radius: 5px;
+}
+.contact__work-time:hover .contact__hide{
+    display: block;
+}
+.contact__hide--text{
+    font-weight: 300;
+    font-size: 14px;
+    color:  #221f1f;
+}
+.hide-text{
+    font-size: 14px;
+    font-weight: 700;
+    color: #ec1e79;
 }

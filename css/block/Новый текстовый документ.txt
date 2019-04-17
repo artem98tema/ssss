@@ -1,0 +1,27 @@
+                <!-- <div class="forma__block">
+                    <div class="forms">
+                    <h1 class="main__text form__text--main">Оставить отзыв</h1>
+                    <form class="forma__info" method="post">
+                        <div class="forma__line">
+                            <p class="forma__name">Ваше имя</p>
+                            <input type="" class="forma__input" placeholder="Андрей" name="">
+                        </div>
+                        <div class="forma__line">
+                            <p class="forma__name">Ссылка на профиль VK</p>
+                            <input type="" class="forma__input" placeholder="vk.com/example" name="">
+                        </div>
+                        <div class="forma__commit">
+                           <p class="forma__name">Текст отзыва</p>
+                            <textarea class="forma__area"></textarea>
+                        </div>
+                        <div class="forma__check">
+                            <p  class="forma__name">Отображать фото в отзыве?</p>
+                            <input type="radio" name="" class="">
+                            <label>Да</label>
+                            <input type="radio" name="" class="">
+                            <label>Нет</label>
+                        </div>
+                        <div class="form__clik clik" ><a class="clik__forma"  href="">Отправить</a></div>
+                    </form>
+                </div>
+                </div> -->

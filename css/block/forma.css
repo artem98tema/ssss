@@ -1,0 +1,152 @@
+.form__box{
+    background: #f5f5f5;
+    padding: 50px 10%;
+}
+
+.form__title {
+    font-size: 49px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.form__row {
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.form__block {
+    margin-right: 23px;
+    flex: 1;
+}
+
+.form__container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.form__block:last-child {
+    margin-right: 0;
+}
+
+
+.form-field {
+    width: 269px;
+    background: #fff;
+    border: none;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.form-field::placeholder {
+    color: #ccc;
+}
+
+.form__textarea {
+    resize: vertical;
+    width: 580px;
+    height: 90px;
+}
+
+.form__radio:checked {
+    color: #ec1e79;
+}
+
+.form__radio {
+    border-color: #ec1e79;
+}
+
+.form__buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__clik {
+    width: 139px;
+    height: 45px;
+    background-color: #27273e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+
+}
+.clik__form{
+      width: 140px;
+      height: 45px;
+      font-size: 12px;
+      font-family: "Gotham Pro";
+      color: #fff;
+      border-radius: 5px;
+      outline: none;
+      background: #27273e;
+      border:none;
+}
+
+.clik__form:hover{
+  background:  #ec1e79;
+}
+
+.radio__but {
+  display: none;
+}
+
+.forma__name{
+  margin: 0;
+}
+.form__radibutton--one{
+display: flex;
+flex-flow:row-reverse; 
+margin-right: 20px;
+}
+.radio-toolbar-one{
+  display: flex;
+  flex-direction:column;
+}
+
+.radio__but:checked~.form__radio--text{
+  color: #ec1e79;
+}
+.radio__but:checked~.form__radio {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+
+    border-bottom-style: solid;
+    border-width: 1px;
+    background-color: #ffffff;
+    border: 1px solid #ec1e79;
+
+}
+.form__radio--text{
+  margin: 0px;
+  font-family: "Gotham Pro";
+}
+.radio__but:checked ~ .form__radio:after{
+    width: 8px;
+    content: "";
+    height: 8px;
+    border-radius: 50%;
+    background-color: #ec1e79;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+.form__radio {
+margin-right: 5px;
+    border-radius: 50%;
+
+    width: 20px;
+    height: 20px;
+    border: 1px solid #c9c9c9;
+    background-color: #ffffff;
+    position: relative;
+}
+.form__radibutton{
+  display: flex;
+}

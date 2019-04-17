@@ -8,16 +8,16 @@
 }
 
 
-.footer__info {
-  position: absolute;
+body{
+  font-family: "Gotham Pro";
 }
 
 
-
+/*
 .clearfix:after {
-   content: " "; /* Older browser do not support empty content */
+   content: " ";            Older browser do not support empty content 
    visibility: hidden;
    display: block;
    height: 0;
    clear: both;
-}
+}*/

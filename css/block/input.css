@@ -1,0 +1,69 @@
+
+.welcome{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url('../../img/wei.png') center center/cover no-repeat;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+
+}
+body,html{
+	height: 100%;
+	margin: 0;
+}
+.welcome__logo{
+	margin-bottom: 10px
+}
+.welcome__center-block{
+	display: flex;
+	flex-direction: column;
+	animation: bounce 1s 0s ;
+}
+.welcome__enter-btn{
+	display: block;
+	color: #ec1e79;
+	border:2px solid #ec1e79;
+	text-decoration: none;
+	padding: 13px 20px;
+	font-size: 12px;
+	font-weight: 700;
+	font-family: 'Gotham Pro';
+}
+.welcome__enter-btn:hover{
+	background-color: #ec1e79;
+	color: white;
+}
+@keyframes bounce{
+	0%{
+		opacity: 0;
+		transform: scale(0) rotate(0);
+	}
+	10%{
+transform: scale(.1);
+	}
+	20%{
+transform: scale(1.2);
+	}
+	
+	40%{
+transform: scale(.9) rotate(-15deg);
+	}
+	
+	60%{
+transform: scale(1.1);
+	}
+	
+	80%{
+transform: scale(.95) rotate(15deg);;
+	}
+	
+	100%{
+		opacity: 1;
+		transform: scale(1);
+	}
+}

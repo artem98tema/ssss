@@ -3,6 +3,9 @@
     padding: 18px 0;
     height: 77px;
 }
+.footer__info {
+  position: absolute;
+}
 
 .info__text {
     color: white;
@@ -20,7 +23,7 @@
 }
 
 .footer__socials {
-    float: right;
+    /*float: right;*/
 }
 
 .socials__link {
@@ -35,14 +38,16 @@
 
 .socials__text {
     color: white;
-    text-align: end;
+    text-align: start;
     margin-bottom: 13px;
 }
-
+.socials__list{
+    display: flex;
+}
 .socials__item {
     text-align: center;
     margin-right: 10px;
-    display: inline-block;
+    
     position: relative;
 }
 .socials__img{
